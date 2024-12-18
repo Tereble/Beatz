@@ -11,6 +11,7 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Validation\Rules;
 use Illuminate\View\View;
+use NoCaptcha\Facades\NoCaptcha;
 
 class RegisteredUserController extends Controller
 {
@@ -28,11 +29,17 @@ class RegisteredUserController extends Controller
      * @throws \Illuminate\Validation\ValidationException
      */
     public function store(Request $request): RedirectResponse
-    {
+    {   
+            // Check honeypot field
+        if ($request->filled('honeypot')) {
+            return redirect()->back()->withErrors(['message' => 'Bot detected.']);
+        }
+
         $request->validate([
             'name' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'lowercase', 'email', 'max:255', 'unique:'.User::class],
             'password' => ['required', 'confirmed', Rules\Password::defaults()],
+            'g-recaptcha-response' => 'required|captcha',
         ]);
 
         $user = User::create([

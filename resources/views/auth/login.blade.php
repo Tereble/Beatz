@@ -1,4 +1,6 @@
-<x-guest-layout>
+@extends('layouts.main')
+@include('partial.header')
+
     <!-- Session Status -->
     <x-auth-session-status class="mb-4" :status="session('status')" />
 
@@ -10,6 +12,11 @@
             <x-input-label for="email" :value="__('Email')" />
             <x-text-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autofocus autocomplete="username" />
             <x-input-error :messages="$errors->get('email')" class="mt-2" />
+        </div>
+
+        <div style="display: none;">
+            <label for="honeypot"></label>
+            <input type="text" name="honeypot" id="honeypot" autocomplete="off">
         </div>
 
         <!-- Password -->
@@ -38,10 +45,15 @@
                     {{ __('Forgot your password?') }}
                 </a>
             @endif
+            <div class="form-group mb-4 mt-4" >
+                {!! NoCaptcha::display() !!}
+            </div>
 
             <x-primary-button class="ms-3">
                 {{ __('Log in') }}
             </x-primary-button>
         </div>
     </form>
-</x-guest-layout>
+
+    {!! NoCaptcha::renderJs() !!}
+

@@ -12,8 +12,23 @@
     </div>
 
     <div class="head-space">
-        <span></span>
-        <span></span>
+        @auth
+         <!-- Authentication -->
+         <form method="POST" action="{{ route('logout') }}">
+            @csrf
+
+            <a :href="route('logout')"
+                    onclick="event.preventDefault();
+                                this.closest('form').submit();">
+                {{ __('Log Out') }}
+            </a>
+        </form>
+
+        @else
+        <a href="{{ route('register')}}">Register</a >
+        <a href="{{ route('login')}}">Login</a >
+        @endauth
+       
     </div>
     <div class="w-10 h-10 item-center justify-between flex mx-2 " id="menuToggle">
         <svg xmlns="http://www.w3.org/2000/svg" height="40px"  viewBox="0 -960 960 960" width="40px" fill="#f8fafc"><path d="M144-264v-72h672v72H144Zm0-180v-72h672v72H144Zm0-180v-72h672v72H144Z"/></svg>

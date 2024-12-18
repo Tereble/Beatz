@@ -11,6 +11,25 @@
           <li><a href="#" class="menu">Info</a></li>
           <li><a href="#" class="menu">Contact</a></li>
         </ul>
+
+        <div class="m-head-space">
+          @auth
+          <!-- Authentication -->
+          <form method="POST" action="{{ route('logout') }}">
+            @csrf
+
+            <a :href="route('logout')"
+                    onclick="event.preventDefault();
+                                this.closest('form').submit();">
+                {{ __('Log Out') }}
+            </a>
+        </form>
+
+        @else
+        <a href="{{ route('register')}}">Register</a >
+        <a href="{{ route('login')}}">Login</a >
+        @endauth
+        </div>
       
     </div>
  

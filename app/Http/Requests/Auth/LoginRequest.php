@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\RateLimiter;
 use Illuminate\Support\Str;
 use Illuminate\Validation\ValidationException;
+use NoCaptcha\Facades\NoCaptcha;
 
 class LoginRequest extends FormRequest
 {
@@ -29,6 +30,19 @@ class LoginRequest extends FormRequest
         return [
             'email' => ['required', 'string', 'email'],
             'password' => ['required', 'string'],
+            'honeypot' => ['nullable', 'size:0'], // Honeypot field must remain empty
+            'g-recaptcha-response' => ['required', 'captcha'], // Google reCAPTCHA validation
+        ];
+    }
+
+    /**
+     * Custom validation messages.
+     */
+    public function messages(): array
+    {
+        return [
+            'g-recaptcha-response.captcha' => 'Please verify that you are not a robot.',
+            'honeypot.size' => 'Bot detected. Your request cannot be processed.',
         ];
     }
 

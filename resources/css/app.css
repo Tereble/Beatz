@@ -148,6 +148,35 @@ nav {
     margin: 10px 20px;
 }
 
+.head-space {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.m-head-space {
+    display: none;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.head-space a, .m-head-space a {
+    background-color: aliceblue;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-weight: 500;
+    color: #5633C7;
+}
+
+.head-space a:hover, .head-space a:active, .m-head-space a:hover, .m-head-space a:active {
+    background-color: #5633C7;
+    color: aliceblue;
+    padding: 10px 15px;
+
+}
+
 nav ul {
     display: flex;
     flex-direction: column;
@@ -289,5 +318,13 @@ nav ul {
 
     #menu-con {
         display: none;
+    }
+
+    .head-space {
+        display: none;
+    }
+
+    .m-head-space {
+        display: flex;
     }
   }
