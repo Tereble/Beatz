@@ -4,11 +4,11 @@
     </div>
 
 
-    <div id="menu">
+    <div id="mob-menu">
         <ul>
           <li><a href="#" class="menu">Home</a></li>
           <li><a href="#" class="menu">About</a></li>
-          <li><a href="#" class="menu">Info</a></li>
+          <li><a href="#" class="menu">Store</a></li>
           <li><a href="#" class="menu">Contact</a></li>
         </ul>
 

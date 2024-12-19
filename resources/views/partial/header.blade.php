@@ -3,10 +3,12 @@
         <img src="https://izzybeatzz.com/wp-content/uploads/2024/10/cropped-izzylogo-1.png" alt="logo" class="w-10 h-10">
     </div>
     <div class="flex gap-3 justify-between items-center mx-3 " id="menu-con">
-        <a href="" class="menu">menu</a>
-        <a href="" class="menu">menu</a>
+        <a href="" class="menu">Home</a>
+        <a href="" class="menu">About</a>
 
-        <a href="" class="menu">menu</a>
+        <a href="" class="menu">Store</a>
+        <a href="" class="menu">Contact</a>
+
 
 
     </div>

@@ -110,7 +110,7 @@ body {
 nav {
     background-color:rgba(33, 36, 40, 0.8);
     height: 100vh;
-    width: 80%;
+    width: 85%;
     position: absolute; 
     top: 0;
     right: 0;
@@ -132,16 +132,16 @@ nav {
 @keyframes entry {
     0% {width: 0%; flex-direction: row;}
     50% { width: 100%; flex-direction: row;}
-    100% { width: 80%; flex-direction: row-reverse;}
+    100% { width: 85%; flex-direction: row-reverse;}
 }
 
 @keyframes close {
-    0% {width: 80%; flex-direction: row-reverse;}
+    0% {width: 85%; flex-direction: row-reverse;}
     50% { width: 100%; flex-direction: row;}
     100% { width: 0%; flex-direction: row;}
 }
 
-#menu {
+#mob-menu {
     display: flex;
     flex-direction: column;
     gap: 10px;
