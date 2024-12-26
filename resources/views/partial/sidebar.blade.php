@@ -20,32 +20,27 @@
                 </a>
                 <ul>
                     @if($settings)
-                    <li> <a href="{{ route('admin.settings.edit', $settings->id) }}"><i class="bx bx-radio-circle"></i>Settings</a>
+                    <li> <a href="{{ route('admin.settings.edit', $settings->id) }}"><i class="bx bx-wrench"></i>Settings</a>
                     </li>
                     @endif
                 </ul>
             </li>
             <li>
                 <a href="javascript:;" class="has-arrow">
-                    <div class="parent-icon"><i class="bx bx-category"></i>
+                    <div class="parent-icon"><i class="bx bx-music"></i>
                     </div>
-                    <div class="menu-title">Application</div>
+                    <div class="menu-title">Music Setting</div>
                 </a>
                 <ul>
-                    <li> <a href="app-emailbox.html"><i class='bx bx-radio-circle'></i>Email</a>
+                    <li> <a href="{{ route('admin.genre.index') }}"><i class='bx bx-radio-circle'></i>Genre</a>
                     </li>
-                    <li> <a href="app-chat-box.html"><i class='bx bx-radio-circle'></i>Chat Box</a>
+                    <li> <a href="{{ route('admin.playlist.index') }}"><i class='bx bx-radio-circle'></i>Playlist</a>
                     </li>
-                    <li> <a href="app-file-manager.html"><i class='bx bx-radio-circle'></i>File Manager</a>
+                    <li> <a href="{{ route('admin.song.index') }}"><i class='bx bx-radio-circle'></i>Song</a>
                     </li>
-                    <li> <a href="app-contact-list.html"><i class='bx bx-radio-circle'></i>Contatcs</a>
+                    <li> <a href="{{ route('admin.licenses.index') }}"><i class='bx bx-radio-circle'></i>License</a>
                     </li>
-                    <li> <a href="app-to-do.html"><i class='bx bx-radio-circle'></i>Todo List</a>
-                    </li>
-                    <li> <a href="app-invoice.html"><i class='bx bx-radio-circle'></i>Invoice</a>
-                    </li>
-                    <li> <a href="app-fullcalender.html"><i class='bx bx-radio-circle'></i>Calendar</a>
-                    </li>
+                   
                 </ul>
             </li>
             <li class="menu-label">UI Elements</li>

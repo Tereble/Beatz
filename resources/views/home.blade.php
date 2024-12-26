@@ -37,6 +37,7 @@
 
     </div>
     
+    
 
    <div class="swiper-container">
     <h2 class="title">Playlists</h2>
@@ -81,6 +82,536 @@
   <div class="swiper-pagination"></div>
 </div>
 
+<div class="ms_weekly_wrapper">
+  <div class="ms_weekly_inner">
+      <div class="row m-4">
+          <div class="col-lg-12">
+              <div class="ms_heading">
+                  <h1>weekly top 15</h1>
+              </div>
+          </div>
+          <div class="col-lg-4 col-md-12 padding_right40">
+              <div class="ms_weekly_box">
+                  <div class="weekly_left">
+                      <span class="w_top_no">
+      01
+    </span>
+                      <div class="w_top_song">
+                          <div class="w_tp_song_img">
+                              <img src="assets/images/weekly/song1.jpg" alt="" class="img-fluid">
+                              <div class="ms_song_overlay">
+                              </div>
+                              <div class="ms_play_icon">
+                                  <img src="assets/images/svg/play.svg" alt="">
+                              </div>
+                          </div>
+                          <div class="w_tp_song_name">
+                              <h3><a href="#">Until I Met You</a></h3>
+                              <p>Ava Cornish</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="weekly_right">
+                      <span class="w_song_time">5:10</span>
+                      <span class="ms_more_icon" data-other="1">
+      <img src="assets/images/svg/more.svg" alt="">									
+    </span>
+                  </div>
+                  <ul class="more_option">
+                      <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
+                      <li><a href="#"><span class="opt_icon"><span class="icon icon_queue"></span></span>Add To Queue</a></li>
+                      <li><a href="#"><span class="opt_icon"><span class="icon icon_dwn"></span></span>Download Now</a></li>
+                      <li><a href="#"><span class="opt_icon"><span class="icon icon_playlst"></span></span>Add To Playlist</a></li>
+                      <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
+                  </ul>
+              </div>
+              <div class="ms_divider"></div>
+              <div class="ms_weekly_box">
+                  <div class="weekly_left">
+                      <span class="w_top_no">
+      02
+    </span>
+                      <div class="w_top_song">
+                          <div class="w_tp_song_img">
+                              <img src="assets/images/weekly/song2.jpg" alt="" class="img-fluid">
+                              <div class="ms_song_overlay">
+                              </div>
+                              <div class="ms_play_icon">
+                                  <img src="assets/images/svg/play.svg" alt="">
+                              </div>
+                          </div>
+                          <div class="w_tp_song_name">
+                              <h3><a href="#">Walking Promises</a></h3>
+                              <p>Ava Cornish</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="weekly_right">
+                      <span class="w_song_time">5:10</span>
+                      <span class="ms_more_icon" data-other="1">
+      <img src="assets/images/svg/more.svg" alt="">									
+    </span>
+                  </div>
+                  <ul class="more_option">
+                      <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
+                      <li><a href="#"><span class="opt_icon"><span class="icon icon_queue"></span></span>Add To Queue</a></li>
+                      <li><a href="#"><span class="opt_icon"><span class="icon icon_dwn"></span></span>Download Now</a></li>
+                      <li><a href="#"><span class="opt_icon"><span class="icon icon_playlst"></span></span>Add To Playlist</a></li>
+                      <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
+                  </ul>
+              </div>
+              <div class="ms_divider"></div>
+              <div class="ms_weekly_box">
+                  <div class="weekly_left">
+                      <span class="w_top_no">
+      03
+    </span>
+                      <div class="w_top_song">
+                          <div class="w_tp_song_img">
+                              <img src="assets/images/weekly/song3.jpg" alt="" class="img-fluid">
+                              <div class="ms_song_overlay">
+                              </div>
+                              <div class="ms_play_icon">
+                                  <img src="assets/images/svg/play.svg" alt="">
+                              </div>
+                          </div>
+                          <div class="w_tp_song_name">
+                              <h3><a href="#">Gimme Some Courage</a></h3>
+                              <p>Ava Cornish</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="weekly_right">
+                      <span class="w_song_time">5:10</span>
+                      <span class="ms_more_icon" data-other="1">
+      <img src="assets/images/svg/more.svg" alt="">									
+    </span>
+                  </div>
+                  <ul class="more_option">
+                      <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
+                      <li><a href="#"><span class="opt_icon"><span class="icon icon_queue"></span></span>Add To Queue</a></li>
+                      <li><a href="#"><span class="opt_icon"><span class="icon icon_dwn"></span></span>Download Now</a></li>
+                      <li><a href="#"><span class="opt_icon"><span class="icon icon_playlst"></span></span>Add To Playlist</a></li>
+                      <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
+                  </ul>
+              </div>
+              <div class="ms_divider"></div>
+              <div class="ms_weekly_box">
+                  <div class="weekly_left">
+                      <span class="w_top_no">
+      04
+    </span>
+                      <div class="w_top_song">
+                          <div class="w_tp_song_img">
+                              <img src="assets/images/weekly/song4.jpg" alt="" class="img-fluid">
+                              <div class="ms_song_overlay">
+                              </div>
+                              <div class="ms_play_icon">
+                                  <img src="assets/images/svg/play.svg" alt="">
+                              </div>
+                          </div>
+                          <div class="w_tp_song_name">
+                              <h3><a href="#">Desired Games</a></h3>
+                              <p>Ava Cornish</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="weekly_right">
+                      <span class="w_song_time">5:10</span>
+                      <span class="ms_more_icon" data-other="1">
+      <img src="assets/images/svg/more.svg" alt="">									
+    </span>
+                  </div>
+                  <ul class="more_option">
+                      <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
+                      <li><a href="#"><span class="opt_icon"><span class="icon icon_queue"></span></span>Add To Queue</a></li>
+                      <li><a href="#"><span class="opt_icon"><span class="icon icon_dwn"></span></span>Download Now</a></li>
+                      <li><a href="#"><span class="opt_icon"><span class="icon icon_playlst"></span></span>Add To Playlist</a></li>
+                      <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
+                  </ul>
+              </div>
+              <div class="ms_divider"></div>
+              <div class="ms_weekly_box">
+                  <div class="weekly_left">
+                      <span class="w_top_no">
+      05
+    </span>
+                      <div class="w_top_song">
+                          <div class="w_tp_song_img">
+                              <img src="assets/images/weekly/song5.jpg" alt="" class="img-fluid">
+                              <div class="ms_song_overlay">
+                              </div>
+                              <div class="ms_play_icon">
+                                  <img src="assets/images/svg/play.svg" alt="">
+                              </div>
+                          </div>
+                          <div class="w_tp_song_name">
+                              <h3><a href="#">Dark Alley Acoustic</a></h3>
+                              <p>Ava Cornish</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="weekly_right">
+                      <span class="w_song_time">5:10</span>
+                      <span class="ms_more_icon" data-other="1">
+      <img src="assets/images/svg/more.svg" alt="">									
+    </span>
+                  </div>
+                  <ul class="more_option">
+                      <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
+                      <li><a href="#"><span class="opt_icon"><span class="icon icon_queue"></span></span>Add To Queue</a></li>
+                      <li><a href="#"><span class="opt_icon"><span class="icon icon_dwn"></span></span>Download Now</a></li>
+                      <li><a href="#"><span class="opt_icon"><span class="icon icon_playlst"></span></span>Add To Playlist</a></li>
+                      <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
+                  </ul>
+              </div>
+          </div>
+          <div class="col-lg-4 col-md-12 padding_right40">
+              <div class="ms_weekly_box">
+                  <div class="weekly_left">
+                      <span class="w_top_no">
+      06
+    </span>
+                      <div class="w_top_song">
+                          <div class="w_tp_song_img">
+                              <img src="assets/images/weekly/song6.jpg" alt="" class="img-fluid">
+                              <div class="ms_song_overlay">
+                              </div>
+                              <div class="ms_play_icon">
+                                  <img src="assets/images/svg/play.svg" alt="">
+                              </div>
+                          </div>
+                          <div class="w_tp_song_name">
+                              <h3><a href="#">Walking Promises</a></h3>
+                              <p>Ava Cornish</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="weekly_right">
+                      <span class="w_song_time">5:10</span>
+                      <span class="ms_more_icon" data-other="1">
+      <img src="assets/images/svg/more.svg" alt="">									
+    </span>
+                  </div>
+                  <ul class="more_option">
+                      <li><a href="#"><span class="opt_icon"><span class="icon icon_fav"></span></span>Add To Favourites</a></li>
+                      <li><a href="#"><span class="opt_icon"><span class="icon icon_queue"></span></span>Add To Queue</a></li>
+                      <li><a href="#"><span class="opt_icon"><span class="icon icon_dwn"></span></span>Download Now</a></li>
+                      <li><a href="#"><span class="opt_icon"><span class="icon icon_playlst"></span></span>Add To Playlist</a></li>
+                      <li><a href="#"><span class="opt_icon"><span class="icon icon_share"></span></span>Share</a></li>
+                  </ul>
+              </div>
+            
+             
+          </div>
+      </div>
+  </div>
+</div>
+
+
+  <div class="product-grid">
+  
+    <div class="card">
+      <div class="product-disc">
+        <div class="product-discount"><span class="">hip-hop</span></div>
+        <a href="#" class="single-cart">
+          <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#fff"><path d="M444-576v-132H312v-72h132v-132h72v132h132v72H516v132h-72ZM263.79-96Q234-96 213-117.21t-21-51Q192-198 213.21-219t51-21Q294-240 315-218.79t21 51Q336-138 314.79-117t-51 21Zm432 0Q666-96 645-117.21t-21-51Q624-198 645.21-219t51-21Q726-240 747-218.79t21 51Q768-138 746.79-117t-51 21ZM48-792v-72h133l155 360h301l113-264h78L703-476q-9 20-26.5 32T637-432H317l-42 72h493v72H276q-42 0-63-36.5t0-71.5l52-90-131-306H48Z"/></svg>
+
+          </a>
+      </div>
+      <img src="assets/images/products/01.png" class="card-img-top" alt="...">
+      
+      <div class="card-body flex flex-col gap-x-1.5">
+        <p class="card-title cursor-pointer text-white">Classic beat</p>
+        <div class="clearfix flex justify-between align-center text-white">
+          {{-- <p class="mb-0 float-start"><strong>134</strong></p> --}}
+          <div class="price flex items-center">
+            <p class="mb-0 float-end fw-bold "><span style=" color: #16a34a; font-size:18px">{{ $settings->currency }}350</span></p>
+          </div>
+          <div class="play-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" height="35px" viewBox="0 -960 960 960" width="45px" fill="#fff"><path class="path" d="m384-312 264-168-264-168v336ZM168-192q-29.7 0-50.85-21.16Q96-234.32 96-264.04v-432.24Q96-726 117.15-747T168-768h624q29.7 0 50.85 21.16Q864-725.68 864-695.96v432.24Q864-234 842.85-213T792-192H168Zm0-72h624v-432H168v432Zm0 0v-432 432Z"/></svg>
+          </div>
+        </div>
+        <div class="d-flex align-items-center mt-3 flex-row">
+          <div class="cursor-pointer d-flex align-items-center">
+            <i class='bx bxs-star text-white'></i>
+            <i class='bx bxs-star text-white'></i>
+            <i class='bx bxs-star text-white'></i>
+            <i class='bx bxs-star text-light-4'></i>
+            <i class='bx bxs-star text-light-4'></i>
+            </div>	
+          <p class="mb-0 ms-auto">4.2(182)</p>
+        </div>
+      </div>
+    
+    </div>
+  
+    <div class="card">
+      <div class="product-disc">
+        <div class="product-discount"><span class="">hip-hop</span></div>
+        <a href="#" class="single-cart">
+          <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#fff"><path d="M444-576v-132H312v-72h132v-132h72v132h132v72H516v132h-72ZM263.79-96Q234-96 213-117.21t-21-51Q192-198 213.21-219t51-21Q294-240 315-218.79t21 51Q336-138 314.79-117t-51 21Zm432 0Q666-96 645-117.21t-21-51Q624-198 645.21-219t51-21Q726-240 747-218.79t21 51Q768-138 746.79-117t-51 21ZM48-792v-72h133l155 360h301l113-264h78L703-476q-9 20-26.5 32T637-432H317l-42 72h493v72H276q-42 0-63-36.5t0-71.5l52-90-131-306H48Z"/></svg>
+
+          </a>
+      </div>
+      <img src="assets/images/products/02.png" class="card-img-top" alt="...">
+      
+      <div class="card-body flex flex-col gap-x-1.5">
+        <p class="card-title cursor-pointer text-white">Classic beat</p>
+        <div class="clearfix flex justify-between align-center text-white">
+          {{-- <p class="mb-0 float-start"><strong>134</strong></p> --}}
+          <div class="price flex items-center">
+            <p class="mb-0 float-end fw-bold "><span style=" color: #16a34a; font-size:18px">{{ $settings->currency }}350</span></p>
+          </div>
+          <div class="play-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" height="35px" viewBox="0 -960 960 960" width="45px" fill="#fff"><path class="path" d="m384-312 264-168-264-168v336ZM168-192q-29.7 0-50.85-21.16Q96-234.32 96-264.04v-432.24Q96-726 117.15-747T168-768h624q29.7 0 50.85 21.16Q864-725.68 864-695.96v432.24Q864-234 842.85-213T792-192H168Zm0-72h624v-432H168v432Zm0 0v-432 432Z"/></svg>
+          </div>
+        </div>
+        <div class="d-flex align-items-center mt-3 flex-row">
+          <div class="cursor-pointer d-flex align-items-center">
+            <i class='bx bxs-star text-white'></i>
+            <i class='bx bxs-star text-white'></i>
+            <i class='bx bxs-star text-white'></i>
+            <i class='bx bxs-star text-light-4'></i>
+            <i class='bx bxs-star text-light-4'></i>
+            </div>	
+          <p class="mb-0 ms-auto">4.2(182)</p>
+        </div>
+      </div>
+    
+    </div>
+
+    <div class="card">
+      <div class="product-disc">
+        <div class="product-discount"><span class="">hip-hop</span></div>
+        <a href="#" class="single-cart">
+          <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#fff"><path d="M444-576v-132H312v-72h132v-132h72v132h132v72H516v132h-72ZM263.79-96Q234-96 213-117.21t-21-51Q192-198 213.21-219t51-21Q294-240 315-218.79t21 51Q336-138 314.79-117t-51 21Zm432 0Q666-96 645-117.21t-21-51Q624-198 645.21-219t51-21Q726-240 747-218.79t21 51Q768-138 746.79-117t-51 21ZM48-792v-72h133l155 360h301l113-264h78L703-476q-9 20-26.5 32T637-432H317l-42 72h493v72H276q-42 0-63-36.5t0-71.5l52-90-131-306H48Z"/></svg>
+
+          </a>
+      </div>
+      <img src="assets/images/products/04.png" class="card-img-top" alt="...">
+      
+      <div class="card-body flex flex-col gap-x-1.5">
+        <p class="card-title cursor-pointer text-white">Classic beat</p>
+        <div class="clearfix flex justify-between align-center text-white">
+          {{-- <p class="mb-0 float-start"><strong>134</strong></p> --}}
+          <div class="price flex items-center">
+            <p class="mb-0 float-end fw-bold "><span style=" color: #16a34a; font-size:18px">{{ $settings->currency }}350</span></p>
+          </div>
+          <div class="play-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" height="35px" viewBox="0 -960 960 960" width="45px" fill="#fff"><path class="path" d="m384-312 264-168-264-168v336ZM168-192q-29.7 0-50.85-21.16Q96-234.32 96-264.04v-432.24Q96-726 117.15-747T168-768h624q29.7 0 50.85 21.16Q864-725.68 864-695.96v432.24Q864-234 842.85-213T792-192H168Zm0-72h624v-432H168v432Zm0 0v-432 432Z"/></svg>
+          </div>
+        </div>
+        <div class="d-flex align-items-center mt-3 flex-row">
+          <div class="cursor-pointer d-flex align-items-center">
+            <i class='bx bxs-star text-white'></i>
+            <i class='bx bxs-star text-white'></i>
+            <i class='bx bxs-star text-white'></i>
+            <i class='bx bxs-star text-light-4'></i>
+            <i class='bx bxs-star text-light-4'></i>
+            </div>	
+          <p class="mb-0 ms-auto">4.2(182)</p>
+        </div>
+      </div>
+    
+    </div>
+    <div class="card">
+      <div class="product-disc">
+        <div class="product-discount"><span class="">hip-hop</span></div>
+        <a href="#" class="single-cart">
+          <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#fff"><path d="M444-576v-132H312v-72h132v-132h72v132h132v72H516v132h-72ZM263.79-96Q234-96 213-117.21t-21-51Q192-198 213.21-219t51-21Q294-240 315-218.79t21 51Q336-138 314.79-117t-51 21Zm432 0Q666-96 645-117.21t-21-51Q624-198 645.21-219t51-21Q726-240 747-218.79t21 51Q768-138 746.79-117t-51 21ZM48-792v-72h133l155 360h301l113-264h78L703-476q-9 20-26.5 32T637-432H317l-42 72h493v72H276q-42 0-63-36.5t0-71.5l52-90-131-306H48Z"/></svg>
+
+          </a>
+      </div>
+      <img src="assets/images/products/05.png" class="card-img-top" alt="...">
+      
+      <div class="card-body flex flex-col gap-x-1.5">
+        <p class="card-title cursor-pointer text-white">Classic beat</p>
+        <div class="clearfix flex justify-between align-center text-white">
+          {{-- <p class="mb-0 float-start"><strong>134</strong></p> --}}
+          <div class="price flex items-center">
+            <p class="mb-0 float-end fw-bold "><span style=" color: #16a34a; font-size:18px">{{ $settings->currency }}350</span></p>
+          </div>
+          <div class="play-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" height="35px" viewBox="0 -960 960 960" width="45px" fill="#fff"><path class="path" d="m384-312 264-168-264-168v336ZM168-192q-29.7 0-50.85-21.16Q96-234.32 96-264.04v-432.24Q96-726 117.15-747T168-768h624q29.7 0 50.85 21.16Q864-725.68 864-695.96v432.24Q864-234 842.85-213T792-192H168Zm0-72h624v-432H168v432Zm0 0v-432 432Z"/></svg>
+          </div>
+        </div>
+        <div class="d-flex align-items-center mt-3 flex-row">
+          <div class="cursor-pointer d-flex align-items-center">
+            <i class='bx bxs-star text-white'></i>
+            <i class='bx bxs-star text-white'></i>
+            <i class='bx bxs-star text-white'></i>
+            <i class='bx bxs-star text-light-4'></i>
+            <i class='bx bxs-star text-light-4'></i>
+            </div>	
+          <p class="mb-0 ms-auto">4.2(182)</p>
+        </div>
+      </div>
+    
+    </div>
+
+     
+  
+</div>
+
+
+<section class="pricing py-5">
+  <div class="container">
+    <div class="row">
+      <!-- Free Tier -->
+      <div class="col-lg-4">
+        <div class="card mb-5 mb-lg-0">
+          <div class="card-body">
+            <h5 class="card-title text-muted text-uppercase text-center">Free</h5>
+            <h6 class="card-price text-center">$0<span class="period">/month</span></h6>
+            <hr>
+            <ul class="fa-ul">
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Single User</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>5GB Storage</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Public Projects</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Community Access</li>
+              <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Unlimited
+                Private Projects</li>
+              <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Dedicated
+                Phone Support</li>
+              <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Free Subdomain
+              </li>
+              <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Monthly Status
+                Reports</li>
+            </ul>
+            <div class="d-grid">
+              <a href="#" class="btn btn-primary text-uppercase">Button</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Plus Tier -->
+      <div class="col-lg-4">
+        <div class="card mb-5 mb-lg-0">
+          <div class="card-body">
+            <h5 class="card-title text-muted text-uppercase text-center">Plus</h5>
+            <h6 class="card-price text-center">$9<span class="period">/month</span></h6>
+            <hr>
+            <ul class="fa-ul">
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>5 Users</strong></li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>50GB Storage</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Public Projects</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Community Access</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Private Projects</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Dedicated Phone Support</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Free Subdomain</li>
+              <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Monthly Status
+                Reports</li>
+            </ul>
+            <div class="d-grid">
+              <a href="#" class="btn btn-primary text-uppercase">Button</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Pro Tier -->
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-muted text-uppercase text-center">Pro</h5>
+            <h6 class="card-price text-center">$49<span class="period">/month</span></h6>
+            <hr>
+            <ul class="fa-ul">
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Unlimited Users</strong>
+              </li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>150GB Storage</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Public Projects</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Community Access</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Private Projects</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Dedicated Phone Support</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Unlimited</strong> Free
+                Subdomains</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Monthly Status Reports</li>
+            </ul>
+            <div class="d-grid">
+              <a href="#" class="btn btn-primary text-uppercase">Button</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="pricing-table">
+<div class="row row-cols-1 row-cols-lg-3">
+  <!-- Free Tier -->
+  <div class="col">
+    <div class="card mb-5 mb-lg-0 bg-dark">
+      <div class="card-body">
+        <h5 class="card-title grey-text text-uppercase text-center">Free</h5>
+        <h6 class="card-price text-center">$0<span class="term">/month</span></h6>
+        <hr class="my-4">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item bg-transparent"><i class='bx bx-check me-2 font-18'></i>Single User</li>
+          <li class="list-group-item bg-transparent"><i class='bx bx-check me-2 font-18'></i>5GB Storage</li>
+          <li class="list-group-item bg-transparent"><i class='bx bx-check me-2 font-18'></i>Unlimited Public Projects</li>
+          <li class="list-group-item bg-transparent"><i class='bx bx-check me-2 font-18'></i>Community Access</li>
+          <li class="list-group-item bg-transparent"><i class='bx bx-x me-2 font-18'></i>Unlimited Private Projects</li>
+          <li class="list-group-item bg-transparent"><i class='bx bx-x me-2 font-18'></i>Dedicated Phone Support</li>
+          <li class="list-group-item bg-transparent"><i class='bx bx-x me-2 font-18'></i>Free Subdomain</li>
+          <li class="list-group-item bg-transparent"><i class='bx bx-x me-2 font-18'></i>Monthly Status Reports</li>
+        </ul>
+        <div class="d-grid"> <a href="#" class="btn btn-light my-2 radius-30">Order Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Plus Tier -->
+  <div class="col">
+    <div class="card mb-5 mb-lg-0 bg-light">
+      <div class="card-body">
+        <h5 class="card-title text-white text-uppercase text-center">Plus</h5>
+        <h6 class="card-price text-white text-center">$9<span class="term">/month</span></h6>
+        <hr class="my-4">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item bg-transparent text-white"><i class='bx bx-check me-2 font-18'></i>Single User</li>
+          <li class="list-group-item bg-transparent text-white"><i class='bx bx-check me-2 font-18'></i>5GB Storage</li>
+          <li class="list-group-item bg-transparent text-white"><i class='bx bx-check me-2 font-18'></i>Unlimited Public Projects</li>
+          <li class="list-group-item bg-transparent text-white"><i class='bx bx-check me-2 font-18'></i>Community Access</li>
+          <li class="list-group-item bg-transparent text-white"><i class='bx bx-check me-2 font-18'></i>Unlimited Private Projects</li>
+          <li class="list-group-item bg-transparent text-white"><i class='bx bx-check me-2 font-18'></i>Dedicated Phone Support</li>
+          <li class="list-group-item bg-transparent text-white"><i class='bx bx-check me-2 font-18'></i>Free Subdomain</li>
+          <li class="list-group-item bg-transparent text-white"><i class='bx bx-x me-2 font-18'></i>Monthly Status Reports</li>
+        </ul>
+        <div class="d-grid"> <a href="#" class="btn btn-light my-2 radius-30">Order Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Pro Tier -->
+  <div class="col">
+    <div class="card bg-dark">
+      <div class="card-body">
+        <h5 class="card-title text-white text-uppercase text-center">Pro</h5>
+        <h6 class="card-price text-white text-center">$49<span class="term">/month</span></h6>
+        <hr class="my-4">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item bg-transparent text-white"><i class='bx bx-check me-2 font-18'></i>Single User</li>
+          <li class="list-group-item bg-transparent text-white"><i class='bx bx-check me-2 font-18'></i>5GB Storage</li>
+          <li class="list-group-item bg-transparent text-white"><i class='bx bx-check me-2 font-18'></i>Unlimited Public Projects</li>
+          <li class="list-group-item bg-transparent text-white"><i class='bx bx-check me-2 font-18'></i>Community Access</li>
+          <li class="list-group-item bg-transparent text-white"><i class='bx bx-check me-2 font-18'></i>Unlimited Private Projects</li>
+          <li class="list-group-item bg-transparent text-white"><i class='bx bx-check me-2 font-18'></i>Dedicated Phone Support</li>
+          <li class="list-group-item bg-transparent text-white"><i class='bx bx-check me-2 font-18'></i>Free Subdomain</li>
+          <li class="list-group-item bg-transparent text-white"><i class='bx bx-check me-2 font-18'></i>Monthly Status Reports</li>
+        </ul>
+        <div class="d-grid"> <a href="#" class="btn btn-light my-2 radius-30">Order Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div> 
+
+
+
+{{-- 
 <div class="audio-player">
   <button id="play-pause">Play</button>
   <div class="progress-bar-container">
@@ -92,7 +623,7 @@
     <button id="volume-up">+</button>
   </div>
   <audio id="audio" src=""></audio>
-</div>
+</div> --}}
 
 
 

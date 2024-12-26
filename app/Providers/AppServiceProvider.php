@@ -2,8 +2,10 @@
 
 namespace App\Providers;
 
-use Illuminate\Support\ServiceProvider;
 use Illuminate\Routing\Router;
+use App\Models\GeneralSettings;
+use Illuminate\Support\Facades\View;
+use Illuminate\Support\ServiceProvider;
 use App\Http\Middleware\AdminMiddleware;
 
 
@@ -24,5 +26,6 @@ class AppServiceProvider extends ServiceProvider
     {
         // Register a route middleware alias
         $router->aliasMiddleware('admin', AdminMiddleware::class);
+        View::share('settings', GeneralSettings::first());
     }
 }

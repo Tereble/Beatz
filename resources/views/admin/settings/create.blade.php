@@ -5,7 +5,7 @@
                     <div class="col-lg-8 mx-auto">
 						<div class="card">
 							<div class="card-header px-4 py-3 border-bottom">
-								<h5 class="mb-0">Settings</h5>
+								<h5 class="mb-0">Playlist</h5>
 							</div>
 							<div class="card-body p-4">
 								<form  method="POST" action="{{ route('admin.settings.store') }}" enctype="multipart/form-data">
